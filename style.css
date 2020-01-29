@@ -1,0 +1,68 @@
+* {
+    top: 0 auto;
+    margin: 0 auto;
+    padding: 0 auto;
+} 
+body {
+    background-image: url(img/backround.png);
+    margin: 0 auto;
+}
+#navbar {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+}
+#navbar-kiri {
+    width: 10vw;
+}
+#navbar-tengah {
+width: 70vw;
+text-align: center;
+}
+#navbar-kanan {
+    text-align: right;
+    width: 20vw;
+}
+#navbar-kanan li {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+    font-style: oblique;
+}
+#isi {
+    background-color:whitesmoke;
+    padding: 30 px;
+    margin: 0 auto;
+    justify-content: right;
+    font-size: 0.5cm;
+    text-align: center;
+    opacity: 0.7;
+}
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+#Reklame {
+    color: black;
+    display: flex;
+    overflow: hidden;
+    width: 100vw;
+    height: 100hw;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+}
+section {
+    width: 60vw;
+    padding: 0 auto;
+    align-items: center;
+    margin: 0 auto;
+    font-style: italic;
+    text-align: justify;
+    
+}
